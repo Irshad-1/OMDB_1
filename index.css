@@ -8,6 +8,7 @@ body{
 #navbar{
     max-width:1368px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
 }
@@ -22,7 +23,7 @@ form{
     align-items: center;
 }
 form >input{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 10px;
     border-radius: 10px;
     border: 0px;
@@ -41,9 +42,10 @@ form >input[type="submit"]{
 #card-container{
     max-width:1368px;
     margin: auto;
+    width: 50%;
 }
 #card{
-    width:50%;
+    width:100%;
     margin: auto;
     display: flex;
     border-radius: 10px;
@@ -76,9 +78,7 @@ form >input[type="submit"]{
     #navbar{
         width: 100%;
     }
-    #navbar>h1{
-        font-size: 10px;
-    }
+    
     form>input{
         font-size: 15px;
     }
@@ -88,9 +88,7 @@ form >input[type="submit"]{
     #card{
         width: 100%;
     }
-    #description{
-        width: 100%;
-    }
+    
     #description >h4{
         font-size: 15px;
     }

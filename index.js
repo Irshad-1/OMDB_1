@@ -17,6 +17,8 @@ document.querySelector('form').addEventListener('submit',searchFn);
         var year=document.createElement('p');
         var duration=document.createElement('p');
         var genre=document.createElement('p');
+        box.classList.add('genre');
+        
         year.innerText=result.Year;
         duration.innerText=result.Runtime;
         genre.innerText=result.Genre;
