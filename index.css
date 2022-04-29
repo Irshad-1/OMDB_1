@@ -47,6 +47,9 @@ form >input[type="submit"]{
     margin: auto;
     width: 50%;
 }
+#card-container>img{
+    width: 100%;
+}
 #card{
     width:100%;
     margin: auto;
@@ -69,7 +72,14 @@ form >input[type="submit"]{
 /* #description{
     margin: 20px;
 } */
-#description >div{
+#recommend{
+    background-color: green;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+#description >.box{
     display: flex;
     justify-content: space-between;
 }
