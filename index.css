@@ -36,11 +36,13 @@ form >input[type="submit"]{
 
 #container{
     width: 100%;
-    margin: 0px;
+    
     background-color:#85586F;
+    margin-bottom: 50px;
 }
 #card-container{
-    margin-top: 50px;
+    padding: 0.5px;
+    
     max-width:1368px;
     margin: auto;
     width: 50%;
