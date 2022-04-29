@@ -40,6 +40,7 @@ form >input[type="submit"]{
     background-color:#85586F;
 }
 #card-container{
+    margin-top: 50px;
     max-width:1368px;
     margin: auto;
     width: 50%;
@@ -63,9 +64,9 @@ form >input[type="submit"]{
     color:#001D6E;
     
 }
-#description{
+/* #description{
     margin: 20px;
-}
+} */
 #description >div{
     display: flex;
     justify-content: space-between;
